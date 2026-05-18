@@ -127,7 +127,7 @@ PARAM/
 ```
 ---
 
-#### 📝 `NAMELIST/` Configuration
+#### 📝 `NAMELIST/` Experiment Configuration
 
 <details>
 <summary><strong>Click to expand namelist structure</strong></summary>
