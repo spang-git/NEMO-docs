@@ -289,7 +289,7 @@ Controls:
 # 📌 Best Practices
 
 ✅ Modify:
-- `NAMELIST/` expriment setting file: `namelist_pisces_cfg`
+- `NAMELIST/` namelist file for experiment settings: `namelist_pisces_cfg`
 - `XML/` output files: `file_opa` & `field_opa`
 - `MY_SRC/`
 - job scripts
