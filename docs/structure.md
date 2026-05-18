@@ -88,7 +88,7 @@ ORCA1_PISCES_FLX/
 
 ### 🔧 `MY_SRC/`
 
-Contains user-modified Fortran source code.
+Contains user-modified Fortran (.f90) source code.
 
 Typical usage:
 - parameter tuning
@@ -214,6 +214,8 @@ Typical usage:
 ---
 
 # 🌊 NEMO Source Code Structure
+
+Contains original Fortran (.f90) source code.
 
 <details>
 <summary><strong>Click to expand source code structure</strong></summary>
