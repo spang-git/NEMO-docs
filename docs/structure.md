@@ -253,7 +253,7 @@ Examples:
 
 ---
 
-## 🌊 `LBC/' — Lateral Boundary Conditions
+## 🌊 `LBC/` — Lateral Boundary Conditions
 
 Used for:
 - open ocean boundaries
