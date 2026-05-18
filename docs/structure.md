@@ -69,7 +69,7 @@ This directory contains all files required for the PISCES flux-based experiments
 
 ---
 
-## 📁 ORCA1_PISCES_FLX Structure
+## 📁 ORCA1_PISCES_FLX/ Structure
 
 <details>
 <summary><strong>Click to expand experiment directory</strong></summary>
@@ -86,7 +86,7 @@ ORCA1_PISCES_FLX/
 
 ---
 
-### 🔧 MY_SRC
+### 🔧 `MY_SRC/`
 
 Contains user-modified Fortran source code.
 
@@ -100,7 +100,7 @@ Typical usage:
 
 ---
 
-### 🏗️ BLD/bin/nemo.exe
+### 🏗️ `BLD/bin/nemo.exe`
 
 Compiled executable file.
 
@@ -108,7 +108,7 @@ Used to launch simulations on HPC systems.
 
 ---
 
-### ⚙️ PARAM
+### ⚙️ PARAM/
 
 Contains runtime configuration files.
 
@@ -150,7 +150,7 @@ Typical modifications include:
 
 ---
 
-#### 📤 XML Output Configuration
+#### 📤 XML/ Output Configuration
 
 <details>
 <summary><strong>Click to expand XML structure</strong></summary>
