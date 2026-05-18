@@ -18,5 +18,18 @@ Main floders: ../
 -     /ORCA1_PISCES_FLX  (PISCES flux-based experiments)
 -       /MY_SRC  (fortran code for parameters???)
 -       /BLD/bin/nemo.exe  (executable)
--       /PARAM
--           /NAMELIST
+-       /PARAM   (can be identified)
+-           /NAMELIST  
+-               /namelist_ref  (default file; should not be changed)
+-               /namelist_pisces_cfg  (your configuration file)
+-           /XML  (output set-up: e.g., 'yearly' / 'monthly')
+-               /file_def_nemo-opa.xml  (???)
+-               /field_def_nemo-opa.xml  (variables)
+-       /SCRIPTS   (can be identified? job computing)
+
+- NEMO  (never be changed)
+-     /OPA_SRC
+-       /SBC  (surface boundary conditions)
+-       /LBC  (lateral boudary conditions)
+-       /TRA  (tracers: e.g., T/S)
+-       /ZDF  (mixing schemes)
