@@ -206,6 +206,11 @@ Examples:
 
 Contains job execution and submission scripts.
 
+Exmaple: 
+```text
+job_SSP585-fS_MMM-cMMM-v1_1958-1967
+```
+
 Typical usage:
 - HPC batch submission
 - simulation automation
