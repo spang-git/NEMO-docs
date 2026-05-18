@@ -150,7 +150,7 @@ Typical modifications include:
 
 ---
 
-### 📤 XML Output Configuration
+#### 📤 XML Output Configuration
 
 <details>
 <summary><strong>Click to expand XML structure</strong></summary>
@@ -165,7 +165,7 @@ PARAM/XML/
 
 ---
 
-#### 📄 file_def_nemo-opa.xml
+##### 📄 file_def_nemo-opa.xml
 
 Controls:
 - output frequency
@@ -178,7 +178,7 @@ Examples:
 
 ---
 
-#### 📄 field_def_nemo-opa.xml
+##### 📄 field_def_nemo-opa.xml
 
 Defines model output variables.
 
