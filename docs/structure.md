@@ -98,6 +98,10 @@ Typical usage:
 > [!IMPORTANT]
 > Files inside `MY_SRC/` override the original NEMO source files during compilation.
 
+> [!WARNING]
+> The original `MY_SRC/` source code should NOT be modified.
+
+
 ---
 
 ### 🏗️ `BLD/`
