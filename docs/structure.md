@@ -104,7 +104,7 @@ Typical usage:
 
 Compiled executable file: 
 ```text
-`BLD/bin/nemo.exe`
+BLD/bin/nemo.exe
 ```
 
 Used to launch simulations on HPC systems.
