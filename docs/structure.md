@@ -75,14 +75,14 @@ This directory contains all files required for the PISCES flux-based experiments
 <summary><strong>Click to expand experiment directory</strong></summary>
 
 ```text
+Lab-customized workflow structure:
+
 ORCA1_PISCES_FLX/
 ├── MY_SRC
 ├── BLD
 ├── PARAM
 └── SCRIPTS
 ```
-
-Lab-customized
 </details>
 
 ---
