@@ -115,6 +115,11 @@ Used to launch simulations on HPC systems.
 
 Contains runtime configuration files.
 
+```text
+PARAM/
+├── NAMELIST
+└── XML
+```
 ---
 
 #### 📝 `NAMELIST/` Configuration
