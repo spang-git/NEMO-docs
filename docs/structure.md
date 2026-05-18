@@ -20,7 +20,6 @@ This document describes the architecture of the NEMO3.6 OGCM framework and expla
 ├── TOOLS
 └── License_CeCILL.txt
 ```
-
 </details>
 
 ---
