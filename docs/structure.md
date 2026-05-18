@@ -272,9 +272,9 @@ Controls:
 ✅ Modify:
 - `namelist_pisces_cfg`
 - `MY_SRC/`
-- XML output files
+- `XML/` output files `file_opa or field_opa`
 - job scripts
-
+  
 ❌ Avoid modifying:
 - original `NEMO/` source files
 - `namelist_ref`
