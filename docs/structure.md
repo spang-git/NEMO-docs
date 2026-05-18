@@ -69,7 +69,7 @@ This directory contains all files required for the PISCES flux-based experiments
 
 ---
 
-## 📁 ORCA1_PISCES_FLX/ Structure
+## 📁 `ORCA1_PISCES_FLX/` Structure
 
 <details>
 <summary><strong>Click to expand experiment directory</strong></summary>
@@ -100,21 +100,24 @@ Typical usage:
 
 ---
 
-### 🏗️ `BLD/bin/nemo.exe`
+### 🏗️ `BLD/`
 
-Compiled executable file.
+Compiled executable file: 
+```text
+`BLD/bin/nemo.exe`
+```
 
 Used to launch simulations on HPC systems.
 
 ---
 
-### ⚙️ PARAM/
+### ⚙️ `PARAM/`
 
 Contains runtime configuration files.
 
 ---
 
-#### 📝 NAMELIST Configuration
+#### 📝 `NAMELIST/` Configuration
 
 <details>
 <summary><strong>Click to expand namelist structure</strong></summary>
@@ -129,7 +132,7 @@ PARAM/NAMELIST/
 
 ---
 
-##### 📄 namelist_ref
+##### 📄 `namelist_ref`
 
 Default reference namelist provided by NEMO.
 
@@ -138,7 +141,7 @@ Default reference namelist provided by NEMO.
 
 ---
 
-##### 📄 namelist_pisces_cfg
+##### 📄 `namelist_pisces_cfg`
 
 User-defined experiment configuration.
 
@@ -150,7 +153,7 @@ Typical modifications include:
 
 ---
 
-#### 📤 XML/ Output Configuration
+#### 📤 `XML/` Output Configuration
 
 <details>
 <summary><strong>Click to expand XML structure</strong></summary>
@@ -165,7 +168,7 @@ PARAM/XML/
 
 ---
 
-##### 📄 file_def_nemo-opa.xml
+##### 📄 `file_def_nemo-opa.xml`
 
 Controls:
 - output frequency
@@ -178,7 +181,7 @@ Examples:
 
 ---
 
-##### 📄 field_def_nemo-opa.xml
+##### 📄 `field_def_nemo-opa.xml`
 
 Defines model output variables.
 
@@ -190,7 +193,7 @@ Examples:
 
 ---
 
-### 📜 SCRIPTS
+### 📜 `SCRIPTS\`
 
 Contains job execution and submission scripts.
 
@@ -230,7 +233,7 @@ NEMO/
 
 ---
 
-## 🌬️ SBC — Surface Boundary Conditions
+## 🌬️ `SBC\` — Surface Boundary Conditions
 
 Examples:
 - air-sea heat flux
@@ -239,7 +242,7 @@ Examples:
 
 ---
 
-## 🌊 LBC — Lateral Boundary Conditions
+## 🌊 `LBC\' — Lateral Boundary Conditions
 
 Used for:
 - open ocean boundaries
@@ -247,7 +250,7 @@ Used for:
 
 ---
 
-## 🌡️ TRA — Tracer Processes
+## 🌡️ `TRA\` — Tracer Processes
 
 Handles:
 - temperature
@@ -257,7 +260,7 @@ Handles:
 
 ---
 
-## 🌪️ ZDF — Vertical Mixing
+## 🌪️ `ZDF\` — Vertical Mixing
 
 Controls:
 - turbulent mixing
