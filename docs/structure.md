@@ -219,7 +219,7 @@ NEMO/
 
 ---
 
-# 🧩 Core Physical Modules
+## 🧩 Core Physical Modules
 
 | Module | Description |
 |---|---|
@@ -230,7 +230,7 @@ NEMO/
 
 ---
 
-# 🌬️ SBC — Surface Boundary Conditions
+## 🌬️ SBC — Surface Boundary Conditions
 
 Examples:
 - air-sea heat flux
@@ -239,7 +239,7 @@ Examples:
 
 ---
 
-# 🌊 LBC — Lateral Boundary Conditions
+## 🌊 LBC — Lateral Boundary Conditions
 
 Used for:
 - open ocean boundaries
@@ -247,7 +247,7 @@ Used for:
 
 ---
 
-# 🌡️ TRA — Tracer Processes
+## 🌡️ TRA — Tracer Processes
 
 Handles:
 - temperature
@@ -257,7 +257,7 @@ Handles:
 
 ---
 
-# 🌪️ ZDF — Vertical Mixing
+## 🌪️ ZDF — Vertical Mixing
 
 Controls:
 - turbulent mixing
