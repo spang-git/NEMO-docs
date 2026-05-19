@@ -6,7 +6,7 @@ This document describes the architecture of the NEMO3.6 OGCM framework and expla
 
 # 🗂️ Root Directory Structure
 
-<details>
+%<details>
 <summary><strong>Click to expand root directory tree</strong></summary>
 
 ```text
