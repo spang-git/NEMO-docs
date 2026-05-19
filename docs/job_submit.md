@@ -88,9 +88,9 @@ The following variables define the experiment setup.
 | `ending_year` | Final simulation year |
 | `job_starting_year` | First year for current job segment |
 | `job_ending_year` | Final year for current job segment |
-| `MODEL` | Atmospheric forcing model |
+| `MODEL` | Anomalous atmospheric forcing model |
 | `SCENAR` | SSP scenario |
-| `vers` | Experiment version |
+| `vers` | Experiment version related to PISCES module |
 
 ---
 
@@ -102,7 +102,7 @@ The experiment forcing is controlled using anomaly switches.
 |---|---|
 | `lfano` | Enable forcing anomalies |
 | `lQano` | Heat flux anomaly |
-| `lSano` | Salinity anomaly |
+| `lSano` | Wind stress anomaly |
 | `lFano` | Freshwater flux anomaly |
 
 ---
@@ -127,7 +127,7 @@ SSP585-fS_MMM-cMMM-v1
 | Component | Meaning |
 |---|---|
 | `SSP585` | Climate scenario |
-| `fS` | Salinity anomaly forcing |
+| `fS` | Wind stress anomaly forcing |
 | `MMM` | Forcing model |
 | `cMMM` | Coefficient dataset |
 | `v1` | Experiment version |
@@ -140,7 +140,7 @@ The script defines several runtime paths.
 
 | Variable | Purpose |
 |---|---|
-| `HOMEDIR` | Main working directory |
+| `HOMEDIR` | Main working directory (i.e. `NEMO3.6` directory) |
 | `CFGDIR` | Configuration directory |
 | `EXEDIR` | Executable directory |
 | `R_INPUTS` | Runtime input files |
