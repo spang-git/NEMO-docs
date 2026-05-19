@@ -215,9 +215,6 @@ Typical usage:
 
 Contains original Fortran (.f90) source code.
 
-<details>
-<summary><strong>Click to expand source code structure</strong></summary>
-
 ```text
 NEMO/
 └── OPA_SRC/
@@ -226,9 +223,6 @@ NEMO/
     ├── TRA
     └── ZDF
 ```
-
-</details>
-
 ---
 
 ## 🧩 Core Physical Modules
