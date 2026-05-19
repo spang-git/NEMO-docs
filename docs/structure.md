@@ -6,9 +6,6 @@ This document describes the architecture of the NEMO3.6 OGCM framework and expla
 
 # 🗂️ Root Directory Structure
 
-%<details>
-<summary><strong>Click to expand root directory tree</strong></summary>
-
 ```text
 ../
 ├── ARCH
@@ -20,7 +17,6 @@ This document describes the architecture of the NEMO3.6 OGCM framework and expla
 ├── TOOLS
 └── License_CeCILL.txt
 ```
-</details>
 
 ---
 
@@ -71,9 +67,6 @@ This directory contains all files required for the PISCES flux-based experiments
 
 ## 📁 `ORCA1_PISCES_FLX/` Structure
 
-<details>
-<summary><strong>Click to expand experiment directory</strong></summary>
-
 ```text
 Lab-customized workflow structure:
 
@@ -83,7 +76,6 @@ ORCA1_PISCES_FLX/
 ├── PARAM
 └── SCRIPTS
 ```
-</details>
 
 ---
 
